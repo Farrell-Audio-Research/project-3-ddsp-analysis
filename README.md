@@ -22,8 +22,8 @@ This analysis "pressure-tests" a state-of-the-art commercial tool with the same 
 
 | Input (My Voice) | Output (Musicfy Synthesized Violin) | Analysis |
 | :---: | :---: | :--- |
-| **[Listen: `vibrato.wav`]** | **[Listen: `musicfy_vibrato_artifact.wav`]** | **Finding 1: Masking with Polyphony.** The model fails to render the vibrato. Instead, it "cheats" by adding a polyphonic harmony to mask the unnatural "warble." |
-| **[Listen: `consonants.wav`]** | **[Listen: `musicfy_consonant_artifact.wav`]** | **Finding 2: Plosive/Sibilance Failure.** The "tuh" plosive creates a loud digital `burst`, and the "sss" sibilance becomes a high-frequency `scratch`. |
+| **[Listen: `vibrato.wav`](/results/vibrato.wav)** | **[Listen: `musicfy_vibrato_artifact.wav`](/results/musicfy_vibrato_artifact.wav)** | **Finding 1: Masking with Polyphony.** The model fails to render the vibrato. Instead, it "cheats" by adding a polyphonic harmony to mask the unnatural "warble." |
+| **[Listen: `consonants.wav`](/results/consonants.wav)** | **[Listen: `musicfy_consonant_artifact.wav`](/results/musicfy_consonant_artifact.wav)** | **Finding 2: Plosive/Sibilance Failure.** The "tuh" plosive creates a loud digital `burst`, and the "sss" sibilance becomes a high-frequency `scratch`. |
 
 -----
 
